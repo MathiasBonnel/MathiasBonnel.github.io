@@ -1,0 +1,27 @@
+img {
+    max-width: 200px;
+    max-height: 100px;
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(109, 12, 12);
+    width: 300px;
+    padding: 20px;
+}
+.centre{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.nom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(109, 12, 12);
+}
+.contenu{
+    display: flex;
+    flex-direction: row;
+}
